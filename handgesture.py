@@ -9,8 +9,8 @@ from comtypes import CLSCTX_ALL
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 import numpy as np
 
-# Absolute path / local file
-vid_path = r"C:\Users\aryan\Videos\Baby Driver Opening Scene (2017) _ Movieclips Coming Soon.mp4"
+# Absolute path / local file -------------------  TO EDIT
+vid_path = r""
 
 devices = AudioUtilities.GetSpeakers()
 interface = devices.Activate(IAudioEndpointVolume._iid_, CLSCTX_ALL, None)
